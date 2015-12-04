@@ -1,0 +1,79 @@
+
+form.login button {
+  color: #ffffff;
+}
+
+button.facebook {
+  background-color: #36549E;
+}
+
+button.linkedin {
+  background-color: #0079BD;
+}
+
+button.twitter {
+  background-color: #00ACF6;
+}
+
+div.avatar {
+  text-align: center;
+}
+
+ul#user-menu {
+  min-width: 50px;
+}
+
+table.thumb th {
+  text-align: center;
+}
+
+th.header {
+  font-size: 18px;
+}
+
+th.size {
+  width: 20%;
+}
+
+th.current {
+  width: 40%;
+}
+
+th.join {
+  width: 30%;
+}
+
+th.start {
+  width: 15%;
+  min-width: 55px;
+}
+
+table.thumb td.start {
+  padding: 0;
+  vertical-align: top;
+  text-align: center;
+}
+
+td.rider-type {
+  font-weight: bold;
+}
+
+input.new-black,
+input.new-white {
+  margin-top: 3px;
+  border-width: 1px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  outline: none;
+}
+
+div.destination {
+  display: block;
+  background-color: #eeeeee;
+}
+
+div#map {
+  width: 100%;
+  height: 300px;
+}

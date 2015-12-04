@@ -1,0 +1,12 @@
+.container(ng-init='init()')
+  table.table.table-striped.table-bordered.table-hover.contacts
+    thead
+      tr
+        th.rider Rider
+        th.message Destination
+    tbody
+      tr.clickable(ng-repeat='rider in riders' ng-click='goto(rider._id)')
+        td.rider
+          span.names(ng-repeat='participant in rider.rider')
+            a(href='{{\'mailto:\' + participant.email}}') {{participant.firstName + ' ' + participant.lastName}} 
+        td.message {{rider.messages[0].text.substring(0, 140)}}
