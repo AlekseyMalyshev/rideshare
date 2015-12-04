@@ -1,10 +1,10 @@
 {
   "name": "rider-online",
   "version": "1.0.0",
-  "description": "Super Go",
+  "description": "Rideshare",
   "repository": {
     "type": "git",
-    "url": "git@github.com:AlekseyMalyshev/rider-inline.git"
+    "url": "git@github.com:AlekseyMalyshev/rideshare.git"
   },
   "main": "server.js",
   "scripts": {
